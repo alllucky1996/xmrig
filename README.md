@@ -15,6 +15,7 @@ XMRig is a high performance, open source, cross platform RandomX, KawPow, Crypto
 * cd xmrig/build
 * cmake ..
 * make -j$(nproc)
+* ./xmrig -c config.json
 
 ## Mining backends
 - **CPU** (x64/ARMv8)
