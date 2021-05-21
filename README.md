@@ -8,6 +8,13 @@
 [![GitHub forks](https://img.shields.io/github/forks/xmrig/xmrig.svg)](https://github.com/xmrig/xmrig/network)
 
 XMRig is a high performance, open source, cross platform RandomX, KawPow, CryptoNight and AstroBWT unified CPU/GPU miner and [RandomX benchmark](https://xmrig.com/benchmark). Official binaries are available for Windows, Linux, macOS and FreeBSD.
+## Build and run example in Ubuntu
+* sudo apt-get update
+* sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev git cmake
+* git clone https://github.com/alllucky1996/xmrig.git
+* cd xmrig/build
+* cmake ..
+* make -j$(nproc)
 
 ## Mining backends
 - **CPU** (x64/ARMv8)
